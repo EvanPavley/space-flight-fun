@@ -17,4 +17,6 @@ flight_2 = SpaceFlight.new(voyager2,john, "John has a big mission")
 flight_3 = SpaceFlight.new(apollo5,buzz, "Buzz returns to outer space")
 flight_4 = SpaceFlight.new(apollo5,neil, "Neil supposedly walks the moon")
 
+apollo5.add_astronaut(john,"Big john mission 2")
+
 pry.start

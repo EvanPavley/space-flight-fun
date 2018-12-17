@@ -27,5 +27,23 @@ class Spaceship
   end
 
 
+  def my_flights
+    SpaceFlight.all.select do |flight|
+      flight.spaceship == self
+    end
+  end
+
+  def astronauts
+    my_flights.map do |flight|
+      flight.astronaut
+    end
+  end
+
+  def add_astronaut(astronaut,mission_name)
+    SpaceFlight.new(self,astronaut,mission_name)
+  end
+
+
+
 
 end
