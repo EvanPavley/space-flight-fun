@@ -1,8 +1,8 @@
-## Instructions
+<!-- ## Instructions
 1. Read the below and map out the relationship, draw a diagram.
 2. Create methods to correspond with each of the deliverables.
-3. Build out examples in the run file, TEST YOUR CODE!
-
+3. Build out examples in the run file, TEST YOUR CODE! -->
+<!--
 ## Spaceship
 
 ### Attributes
@@ -20,10 +20,10 @@
 * Spaceship#astronauts
   * Should return all of the astronauts that have been aboard that spaceship
 * Spaceship#add_astronaut(astronaut, mission_name)
-  * Should associate the astronaut to the spaceship.
+  * Should associate the astronaut to the spaceship. -->
 
-## Space_Flight
-
+<!-- ## Space_Flight
+<!--
 ### Attributes
 * spaceship
 * astronaut
@@ -32,17 +32,17 @@
 
 ### Methods
 * Space_Flight.all
-  * Should return all of the instances of SpaceFlights
-* Space_Flight.mission_names
-  * Should puts "The mission name of this spaceship is {insert mission name here}" for every Space_Flight
-* Space_Flight#astronaut
+  * Should return all of the instances of SpaceFlights -->
+<!-- * Space_Flight.mission_names
+  * Should puts "The mission name of this spaceship is {insert mission name here}" for every Space_Flight -->
+<!-- * Space_Flight#astronaut
   * Should return the astronaut associated with the Space_Flight
 * Space_Flight#spaceship
-  * Should return the spaceship associated with the Space_Flight
+  * Should return the spaceship associated with the Space_Flight --> -->
 
 
 
-## Astronaut
+<!-- ## Astronaut
 
 ### Attributes
 * name (String)
@@ -58,10 +58,10 @@
 * Astronaut.been_to_space?
   * Should return an array of astronaut instances, who have visited space
 * Astronaut.find_all_by_name(name)
-  * Should return all of the astronauts whose name matches the passed in string
-* Astronaut#space_flights
+  * Should return all of the astronauts whose name matches the passed in string -->
+<!-- * Astronaut#space_flights
   * Should return the number of space_flights that an astronaut has been a part of
 * Astronaut#spaceships
   * Should return the name of all of the spaceships that this astronaut has flown in
 * Astronaut#add_spaceship(spaceship, misson_name)
-  * Should associate an astronaut to a spaceship
+  * Should associate an astronaut to a spaceship -->
